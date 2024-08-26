@@ -3,7 +3,6 @@ export const initialState = [];
 export const todoReducer = (state, action) => {
   switch (action.type) {
     case "ADD_BTN":
-      console.log(state);
       return [...state, action.payload];
 
     case "DELETE_BTN":
